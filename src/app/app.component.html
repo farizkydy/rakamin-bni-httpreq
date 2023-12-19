@@ -1,0 +1,6 @@
+<div class="content" *ngFor="let data of tutorials">
+  <div class="wrapper">
+    <p>{{data.title}}</p>
+    <button (click)="getDataTutorialId(data.id)">Get id</button>
+  </div>
+</div>
